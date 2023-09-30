@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixel+Emulator&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Pixel Emulator', monospace;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#grid {
+  border: 0.8px solid #ddd;
+  display: grid;
+  grid-template-columns: repeat(50, 10px);
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+#buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Pixel Emulator', monospace;
+  font-size: 14px;
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: none;
+  color: #222;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+#generationButton {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal; 
+  text-align: center;
+  line-height: 1; 
+  margin-left: 5px; 
+  color: #000; 
+}
+
+#generationButton:hover {
+  background-color: #e9e9e9;
+}
